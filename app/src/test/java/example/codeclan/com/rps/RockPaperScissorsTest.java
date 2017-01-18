@@ -5,4 +5,10 @@ package example.codeclan.com.rps;
  */
 
 public class RockPaperScissorsTest {
+
+    public void canCheckWin(){
+        assertEquals("Rock")
+    }
+
+
 }

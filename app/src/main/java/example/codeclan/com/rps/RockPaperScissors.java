@@ -35,19 +35,19 @@ public class RockPaperScissors {
 
 
         if (player == "Rock" && cpuAnswer == "Scissors") {
-            return "You win(CPU played " + cpuAnswer;
+            return "You win (CPU played " + cpuAnswer + ").";
         } else if (player == "Scissors" && cpuAnswer == "Paper") {
-            return "You win(CPU played " + cpuAnswer;
+            return "You win (CPU played " + cpuAnswer + ").";
         } else if (player == "Paper" && cpuAnswer == "Rock") {
-            return "You win(CPU played " + cpuAnswer;
+            return "You win (CPU played " + cpuAnswer + ").";
         } else if (player == "Rock" && cpuAnswer == "Paper") {
-            return "You lose(CPU played " + cpuAnswer;
+            return "You lose (CPU played " + cpuAnswer + ").";
         } else if (player == "Scissors" && cpuAnswer == "Rock") {
-            return "You lose(CPU played " + cpuAnswer;
+            return "You lose (CPU played " + cpuAnswer + ").";
         } else if(player == "Paper" && cpuAnswer == "Scissors") {
-            return "You lose(CPU played " + cpuAnswer;
+            return "You lose (CPU played " + cpuAnswer + ").";
         }
-        else return "draw";
+        else return "You both chose " + cpuAnswer + "...draw.";
     }
 
     public String play() {
